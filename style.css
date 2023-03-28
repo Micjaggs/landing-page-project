@@ -12,6 +12,7 @@ body {
     border-color: #1F2937;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 15px 200px 15px 200px;
+    flex-wrap: wrap;
 }
 
 .left {
@@ -33,7 +34,6 @@ body {
     display: flex;
     gap: 20px;
     justify-content: space-between;
-
 }
 
 a {
@@ -47,6 +47,7 @@ a {
     padding: 100px 200px 100px 200px;
     background-color: #1F2937;
     color: white;
+    flex-wrap: wrap;
 }
 
 .left-cta {
@@ -91,6 +92,7 @@ img {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .head-text {
@@ -129,5 +131,29 @@ img {
     object-fit: cover;
     border-radius: 20px;
     border-color: #3882F6;
+}
 
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: #E5E7EB;
+    padding-bottom: 100px;
+}
+
+.quote-text {
+    display: flex;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    margin: 100px 300px 0px 300px;
+}
+
+.author {
+    display: flex;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px 300px 0px 300px;
+    justify-content: flex-end;
 }
